@@ -1,0 +1,49 @@
+{
+    "forniture": [
+        {
+            "id": 1,
+            "name": "Futton bed",
+            "category": "bedroom",
+            "overview": "Madera ya protegida por un barniz. Numerosos espacios de almacenamiento. Puede combinarse con otros muebles de la misma colección. Mueble montado",
+            "price": "895",
+            "reduced_price": "795"
+        },
+        {
+            "id": 2,
+            "name": "Head Rest Ratan",
+            "category": "bedroom",
+            "overview": "Material ligero y muy resistente. También disponible en 90 cm. Combinable con la colección Ratán. Mueble montado. Mueble montado",
+            "price": "185"
+        },
+        {
+            "id": 3,
+            "name": "Head Rest Teca",
+            "category": "bedroom",
+            "overview": "Teca maciza, natural y sostenible. Facilidad de instalación. ",
+            "price": "375"
+        },
+        {
+            "id": 4,
+            "name": "Teca console",
+            "category": "living room",
+            "overview": "Teca maciza, natural y sostenible. Facilidad de instalación. Se puede combinar con otros muebles de la colección.",
+            "price": "325",
+            "reduced_price": "250"
+        },
+        {
+            "id": 5,
+            "name": "Palisandro console",
+            "category": "living room",
+            "overview": "Palisandro macizo, natural y sostenible. Facilidad de instalación. Se puede combinar con otros muebles de la colección.",
+            "price": "995"
+        },
+        {
+            "id": 6,
+            "name": "Teca Bed",
+            "category": "bedroom",
+            "overview": "Teca maciza, natural y sostenible. Madera en bruto: auténtica, natural y cálida. Para colchón de 90 x 190 cm. Mueble montado.",
+            "price": "995",
+            "reduced_price": "785"
+        }
+    ]
+}
