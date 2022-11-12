@@ -3,7 +3,9 @@ import { Repository } from "./repository";
 
 export class ProductRepository implements Repository<IProduct> {
     url: string;
-    constructor(url = "") {
+    constructor(
+        url = "https://202211w6ch1saramireyapatricia-production.up.railway.app/bedroom"
+    ) {
         this.url = url ? url : (process.env.REACT_APP_URL_TASKS as string);
     }
     createError(response: Response) {
