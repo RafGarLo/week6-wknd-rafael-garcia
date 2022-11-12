@@ -1,4 +1,4 @@
-import { IProduct } from "../../models/product";
+import { IProduct } from "../../../models/product";
 import { loadActionCreator } from "./action.creators";
 import { actionTypes } from "./action.types";
 import { productReducer } from "./reducer";
