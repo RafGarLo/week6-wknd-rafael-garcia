@@ -11,7 +11,7 @@ export function AppRoutes() {
             <Route path="home" element={<HomePage></HomePage>} />
 
             <Route
-                path="living-room"
+                path="livingRoom"
                 element={<LivingRoom></LivingRoom>}
             ></Route>
 
