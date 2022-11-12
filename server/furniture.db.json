@@ -1,6 +1,6 @@
+{
     "bedroom": [
-        
-            {
+        {
             "id": 1,
             "name": "Futton bed",
             "category": "bedroom",
@@ -9,7 +9,7 @@
             "on_sale": true,
             "price": "895 €",
             "reduced_price": "795€"
-        }, 
+        },
         {
             "id": 2,
             "name": "Head Rest Ratan",
@@ -19,7 +19,7 @@
             "on_sale": false,
             "price": "185€"
         },
-         {
+        {
             "id": 3,
             "name": "Teca Bed",
             "category": "bedroom",
@@ -29,7 +29,7 @@
             "price": "995€",
             "reduced_price": "785€"
         },
-         {
+        {
             "id": 4,
             "name": "Head Rest Teca",
             "category": "bedroom",
@@ -37,11 +37,9 @@
             "picture": "public/assets/muebles/1200-1200-cabecero-en-teca-maciza-165-cm-minimalysa.jpg",
             "on_sale": false,
             "price": "375€"
-        },
+        }
     ],
-"living_room": 
-    [
-          
+    "living_room": [
         {
             "id": 5,
             "name": "Teca console",
@@ -70,7 +68,7 @@
             "on_sale": false,
             "price": "2995€"
         },
-         {
+        {
             "id": 8,
             "name": "Sofa Palisandro",
             "category": "living room",
@@ -80,6 +78,5 @@
             "price": "1495€",
             "reduced_price": "1150€"
         }
-       
     ]
-
+}
