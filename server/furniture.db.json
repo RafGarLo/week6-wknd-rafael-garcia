@@ -1,5 +1,5 @@
 {
-    "forniture": [
+    "bedroom": [
         {
             "id": 1,
             "name": "Futton bed",
@@ -21,15 +21,27 @@
         },
         {
             "id": 3,
+            "name": "Teca Bed",
+            "category": "bedroom",
+            "overview": "Teca maciza, natural y sostenible. Madera en bruto: auténtica, natural y cálida. Para colchón de 90 x 190 cm. Mueble montado.",
+            "picture": "public/assets/muebles/1200-1200-cama-infantil-de-teca-maciza-kalif-190x90-cm.jpg",
+            "on_sale": true,
+            "price": "995€",
+            "reduced_price": "785€"
+        },
+        {
+            "id": 4,
             "name": "Head Rest Teca",
             "category": "bedroom",
             "overview": "Teca maciza, natural y sostenible. Facilidad de instalación. ",
             "picture": "public/assets/muebles/1200-1200-cabecero-en-teca-maciza-165-cm-minimalysa.jpg",
             "on_sale": false,
             "price": "375€"
-        },
+        }
+    ],
+    "living_room": [
         {
-            "id": 4,
+            "id": 5,
             "name": "Teca console",
             "category": "living room",
             "overview": "Teca maciza, natural y sostenible. Facilidad de instalación. Se puede combinar con otros muebles de la colección.",
@@ -39,7 +51,7 @@
             "reduced_price": "250€"
         },
         {
-            "id": 5,
+            "id": 6,
             "name": "Palisandro console",
             "category": "living room",
             "overview": "Palisandro macizo, natural y sostenible. Facilidad de instalación. Se puede combinar con otros muebles de la colección.",
@@ -48,15 +60,23 @@
             "price": "995€"
         },
         {
-            "id": 6,
-            "name": "Teca Bed",
-            "category": "bedroom",
-
-            "overview": "Teca maciza, natural y sostenible. Madera en bruto: auténtica, natural y cálida. Para colchón de 90 x 190 cm. Mueble montado.",
-            "picture": "public/assets/muebles/1200-1200-cama-infantil-de-teca-maciza-kalif-190x90-cm.jpg",
+            "id": 7,
+            "name": "Sofa WoodNest",
+            "category": "living room",
+            "overview": "Patas de roble macizo. Dieño Blue Nature. Se puede combinar con otros muebles de la colección.",
+            "picture": "public/assets/muebles/1200-1200-sofa-woodnest-en-roble-macizo-y-cuero-cheyenne-2-plazas.jpg",
+            "on_sale": false,
+            "price": "2995€"
+        },
+        {
+            "id": 8,
+            "name": "Sofa Palisandro",
+            "category": "living room",
+            "overview": "Palisandro macizo ya protegido por un barniz. Se puede combinar con otros muebles de la colección.",
+            "picture": "public/assets/muebles/1200-1200-sofa-en-palisandro-macizo-y-tela-metric.jpg",
             "on_sale": true,
-            "price": "995€",
-            "reduced_price": "785€"
+            "price": "1495€",
+            "reduced_price": "1150€"
         }
     ]
 }
