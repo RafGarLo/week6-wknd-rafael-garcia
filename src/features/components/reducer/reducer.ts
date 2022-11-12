@@ -1,4 +1,4 @@
-import { IProduct } from "../../models/product";
+import { IProduct } from "../../../models/product";
 import * as ac from "./action.creators";
 import { createReducer } from "@reduxjs/toolkit";
 
