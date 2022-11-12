@@ -5,7 +5,6 @@ import "@testing-library/jest-dom";
 
 describe("Given App component", () => {
     beforeEach(() => {
-        // eslint-disable-next-line testing-library/no-render-in-setup
         render(
             <Router>
                 <App />
@@ -13,7 +12,7 @@ describe("Given App component", () => {
         );
     });
     test("renders Home Elements", () => {
-        const linkElement = screen.getByText(/Home/i);
+        const linkElement = screen.getByText(/Rafael/i);
         expect(linkElement).toBeInTheDocument();
     });
 });
