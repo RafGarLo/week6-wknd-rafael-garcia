@@ -1,9 +1,11 @@
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter as Router } from "react-router-dom";
-import Bedroom from "./bedroom.page";
+
 import "@testing-library/jest-dom";
 import { Provider } from "react-redux";
 import { appStore } from "../../../infrasctructure/components/store/store";
+import BedroomPage from "./bedroom.page";
+import React from "react";
 
 describe("Given Home component", () => {
     describe("When we render the component", () => {
@@ -11,7 +13,7 @@ describe("Given Home component", () => {
             render(
                 <Router>
                     <Provider store={appStore}>
-                        <Bedroom />
+                        <BedroomPage />
                     </Provider>
                 </Router>
             );

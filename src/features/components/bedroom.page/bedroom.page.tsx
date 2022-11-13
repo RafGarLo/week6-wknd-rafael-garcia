@@ -1,7 +1,7 @@
 import BedRoomList from "../bedroom.list/bedroom.list";
 import { useProducts } from "../hooks/use.products";
 
-function Bedroom() {
+function BedroomPage() {
     const { products } = useProducts();
     return (
         <>
@@ -12,4 +12,4 @@ function Bedroom() {
         </>
     );
 }
-export default Bedroom;
+export default BedroomPage;

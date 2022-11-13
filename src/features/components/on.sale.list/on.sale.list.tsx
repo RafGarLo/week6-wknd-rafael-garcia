@@ -1,10 +1,12 @@
 import { IProduct } from "../../../models/product";
 import { ProductItem } from "../product.item/product.item";
 
-function BedRoomList({ products }: { products: IProduct[] }) {
+function onSaleList({ products }: { products: IProduct[] }) {
+    const onSaleProducts = products.filter((item) => item.on_sale === true);
+
     return (
         <>
-            {products.map((item: IProduct) => (
+            {onSaleProducts.map((item: IProduct) => (
                 <li key={item.id}>
                     <ProductItem item={item}></ProductItem>
                 </li>
@@ -12,4 +14,4 @@ function BedRoomList({ products }: { products: IProduct[] }) {
         </>
     );
 }
-export default BedRoomList;
+export default onSaleList;
