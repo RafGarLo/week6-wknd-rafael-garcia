@@ -1,8 +1,14 @@
+import { ProductList } from "../product.list/product.list";
+
 function HomePage() {
     return (
         <>
             <main>
-                <h2>This is the Home Page</h2>
+                <h2>
+                    Find incredible furniture, all natural, crafted with great
+                    care
+                </h2>
+                <ProductList></ProductList>
             </main>
         </>
     );

@@ -2,7 +2,7 @@ function DetailPage() {
     return (
         <>
             <main>
-                <h2>This is the Detail Page</h2>
+                <h2>Product Detail</h2>
             </main>
         </>
     );
