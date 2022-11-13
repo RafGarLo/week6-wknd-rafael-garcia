@@ -13,28 +13,38 @@ export const useProducts = () => {
     useEffect(() => {
         apiProduct
             .getAll()
-            .then((products) => dispatcher(ac.loadActionCreator(products)))
-            .catch((error: Error) => console.log(error.name, error.message));
+            .then((products) => dispatcher(ac.loadActionCreator(products)));
+        //.catch((error: Error) => console.log(error.name, error.message));
     }, [apiProduct, dispatcher]);
+
+    const handleAdd = (newIProduct: IProduct) => {
+        apiProduct
+            .create(newIProduct)
+            .then((product: IProduct) =>
+                dispatcher(ac.addActionCreator(product))
+            );
+        //.catch((error: Error) => console.log(error.name, error.message));
+    };
 
     const handleUpdate = (updateProduct: Partial<IProduct>) => {
         apiProduct
             .update(updateProduct)
             .then((product: IProduct) =>
                 dispatcher(ac.updateActionCreator(product))
-            )
-            .catch((error: Error) => console.log(error.name, error.message));
+            );
+        //.catch((error: Error) => console.log(error.name, error.message));
     };
 
     const handleDelete = (product: IProduct) => {
         apiProduct
             .delete(product.id)
-            .then(() => dispatcher(ac.deleteActionCreator(product)))
-            .catch((error: Error) => console.log(error.name, error.message));
+            .then(() => dispatcher(ac.deleteActionCreator(product)));
+        //.catch((error: Error) => console.log(error.name, error.message));
     };
 
     return {
         products,
+        handleAdd,
         handleUpdate,
         handleDelete,
     };
