@@ -1,8 +1,8 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import Bedroom from "../../features/components/bedroom/bedroom";
+import Bedroom from "../../features/components/bedroom.page/bedroom.page";
 import DetailPage from "../../features/components/detail.page/detail.page";
 import HomePage from "../../features/components/home.page/home.page";
-import LivingRoom from "../../features/components/living.room/living.room";
+import LivingRoomPage from "../../features/components/living.room.page/living.room.page";
 import OnSale from "../../features/components/on.sale/on.sale";
 
 export function AppRoutes() {
@@ -12,7 +12,7 @@ export function AppRoutes() {
 
             <Route
                 path="livingRoom"
-                element={<LivingRoom></LivingRoom>}
+                element={<LivingRoomPage></LivingRoomPage>}
             ></Route>
 
             <Route path="/bedroom" element={<Bedroom></Bedroom>}></Route>
