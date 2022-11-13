@@ -1,9 +1,9 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import Bedroom from "../../features/bedroom/bedroom";
-import DetailPage from "../../features/detail.page/detail.page";
-import HomePage from "../../features/home.page/home.page";
-import LivingRoom from "../../features/living.room/living.room";
-import OnSale from "../../features/on.sale/on.sale";
+import Bedroom from "../../features/components/bedroom/bedroom";
+import DetailPage from "../../features/components/detail.page/detail.page";
+import HomePage from "../../features/components/home.page/home.page";
+import LivingRoom from "../../features/components/living.room/living.room";
+import OnSale from "../../features/components/on.sale/on.sale";
 
 export function AppRoutes() {
     return (

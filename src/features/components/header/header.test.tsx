@@ -13,7 +13,7 @@ describe("Given Home component", () => {
                 </Router>
             );
 
-            const element = screen.getByText(/header/i);
+            const element = screen.getByText(/surfing/i);
             expect(element).toBeInTheDocument();
         });
     });
