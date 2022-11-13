@@ -1,9 +1,11 @@
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter as Router } from "react-router-dom";
 import "@testing-library/jest-dom";
-import OnSalePage from "./on.sale.page";
+
 import { appStore } from "../../../infrasctructure/components/store/store";
 import { Provider } from "react-redux";
+import React from "react";
+import OnSalePage from "./on.sale.page";
 
 describe("Given Home component", () => {
     describe("When we render the component", () => {

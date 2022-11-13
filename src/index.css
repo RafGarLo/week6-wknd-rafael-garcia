@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+}
+img {
+    min-width: 200px;
+    max-width: 90vw;
+    border-radius: 10px;
+    box-shadow: 10px 10px 16px -3px rgba(0, 0, 0, 0.75);
+}

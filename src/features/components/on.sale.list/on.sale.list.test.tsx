@@ -3,6 +3,7 @@ import { MemoryRouter as Router } from "react-router-dom";
 import { IProduct } from "../../../models/product";
 import OnSaleList from "./on.sale.list";
 import "@testing-library/jest-dom";
+import React from "react";
 
 const mockProductList: IProduct[] = [
     {
