@@ -1,6 +1,8 @@
+import { useProducts } from "../hooks/use.products";
 import { ProductList } from "../product.list/product.list";
 
 function HomePage() {
+    const { products } = useProducts();
     return (
         <>
             <main>
@@ -8,7 +10,7 @@ function HomePage() {
                     Find incredible furniture, all natural, crafted with great
                     care
                 </h2>
-                <ProductList></ProductList>
+                <ProductList products={products}></ProductList>
             </main>
         </>
     );
