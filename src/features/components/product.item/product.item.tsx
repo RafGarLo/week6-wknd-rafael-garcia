@@ -13,5 +13,3 @@ export function ProductItem({ item }: { item: IProduct }) {
         </>
     );
 }
-
-//{`/detail.page/${item.id}`}
