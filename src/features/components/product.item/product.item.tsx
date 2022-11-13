@@ -7,9 +7,11 @@ export function ProductItem({ item }: { item: IProduct }) {
             <br></br>
             <img src={item.picture} alt={`${item.name}`}></img>
             <br></br>
-            <p>Original Price{item.price}</p>
-            <br></br>
-            <p>Sale Price{item.reduced_price}</p>
+            <p>{item.overview}</p>
+
+            <p>Original Price {item.price}</p>
+
+            <p>Sale Price {item.reduced_price}</p>
         </>
     );
 }

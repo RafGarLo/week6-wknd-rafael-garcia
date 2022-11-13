@@ -1,7 +1,8 @@
+import React from "react";
 import { IProduct } from "../../../models/product";
 import { ProductItem } from "../product.item/product.item";
 
-function onSaleList({ products }: { products: IProduct[] }) {
+function OnSaleList({ products }: { products: IProduct[] }) {
     const onSaleProducts = products.filter((item) => item.on_sale === true);
 
     return (
@@ -14,4 +15,4 @@ function onSaleList({ products }: { products: IProduct[] }) {
         </>
     );
 }
-export default onSaleList;
+export default OnSaleList;

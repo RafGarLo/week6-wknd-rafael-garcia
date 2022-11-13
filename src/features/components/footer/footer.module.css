@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 50px;
 }
 
 .footer__container {
@@ -15,6 +16,6 @@
     padding-inline: 1rem;
 }
 
-.footer__container>address {
+.footer__container > address {
     font-size: 0.8rem;
 }
