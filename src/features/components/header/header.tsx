@@ -1,4 +1,4 @@
-import { Menu } from "../../infrasctructure/components/menu/menu";
+import { Menu } from "../../../infrasctructure/components/menu/menu";
 
 function Header() {
     return (
