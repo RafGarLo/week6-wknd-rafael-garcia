@@ -1,33 +1,31 @@
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter as Router } from "react-router-dom";
-import "@testing-library/jest-dom";
 import { IProduct } from "../../../models/product";
-import BedRoomList from "./bedroom.list";
+import OnSaleList from "./on.sale.list";
+import "@testing-library/jest-dom";
 
 const mockProductList: IProduct[] = [
     {
         id: 2,
-        name: "Armchair",
-        category: "Living_room",
+        name: "Painting",
+        category: "Bedroom",
         overview: "",
         picture: "",
         on_sale: true,
-        price: "55",
+        price: "156",
     },
 ];
-
-describe("Given Home component", () => {
+describe("Given the on Sale Component", () => {
     describe("When we render the component", () => {
         beforeEach(() => {
             render(
                 <Router>
-                    <BedRoomList products={mockProductList} />
+                    <OnSaleList products={mockProductList} />
                 </Router>
             );
         });
-
-        test("Then it should display the article name", () => {
-            const element = screen.getByText(/armchair/i);
+        test("Then it should display article on sale", () => {
+            const element = screen.getByText(/Painting/i);
             expect(element).toBeInTheDocument();
         });
     });

@@ -16,7 +16,7 @@ const mockProductList: IProduct[] = [
     },
 ];
 
-describe("Given Home component", () => {
+describe("Given living room list component", () => {
     describe("When we render the component", () => {
         beforeEach(() => {
             render(
@@ -26,7 +26,7 @@ describe("Given Home component", () => {
             );
         });
 
-        test("Then it should display the title", () => {
+        test("Then it should display the article name", () => {
             const element = screen.getByText(/Mirror/i);
             expect(element).toBeInTheDocument();
         });
