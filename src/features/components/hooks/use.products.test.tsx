@@ -48,6 +48,7 @@ describe("Given hooks", () => {
         ProductRepository.prototype.update = jest
             .fn()
             .mockResolvedValue(newMockProduct);
+
         const wrapper = ({ children }: { children: JSX.Element }) => (
             <Provider store={appStore}>{children}</Provider>
         );

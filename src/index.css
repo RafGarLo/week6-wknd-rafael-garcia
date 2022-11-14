@@ -20,4 +20,5 @@ img {
     max-width: 90vw;
     border-radius: 10px;
     box-shadow: 10px 10px 16px -3px rgba(0, 0, 0, 0.75);
+    margin: 0.5em;
 }
