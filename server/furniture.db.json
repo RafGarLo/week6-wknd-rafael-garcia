@@ -1,5 +1,5 @@
 {
-    "bedroom": [
+    "furniture": [
         {
             "id": 1,
             "name": "Futton bed",
@@ -37,9 +37,8 @@
             "picture": "https://static.tikamoon.com/product_photos/2366__HD_001/1200-1200-cabecero-en-teca-maciza-165-cm-minimalys.jpg?t=1665652280.jpg",
             "on_sale": false,
             "price": "375€"
-        }
-    ],
-    "living_room": [
+        },
+
         {
             "id": 5,
             "name": "Teca console",
