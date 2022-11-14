@@ -1,14 +1,14 @@
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter as Router } from "react-router-dom";
-import LivingRoom from "./living.room.list";
 import "@testing-library/jest-dom";
 import { IProduct } from "../../../models/product";
+import LivingRoomList from "./living.room.list";
 
 const mockProductList: IProduct[] = [
     {
         id: 2,
         name: "Mirror",
-        category: "Hallway",
+        category: "living room",
         overview: "",
         picture: "",
         on_sale: true,
@@ -21,7 +21,7 @@ describe("Given living room list component", () => {
         beforeEach(() => {
             render(
                 <Router>
-                    <LivingRoom products={mockProductList} />
+                    <LivingRoomList products={mockProductList} />
                 </Router>
             );
         });

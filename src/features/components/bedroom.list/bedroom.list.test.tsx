@@ -8,7 +8,7 @@ const mockProductList: IProduct[] = [
     {
         id: 2,
         name: "Armchair",
-        category: "Living_room",
+        category: "bedroom",
         overview: "",
         picture: "",
         on_sale: true,
